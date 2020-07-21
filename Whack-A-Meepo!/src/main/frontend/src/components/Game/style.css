@@ -1,0 +1,124 @@
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: white;
+    /*border: 2px solid;*/
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.border
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+#meepImg,.box {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+button
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error
+{
+    color:red;
+}
+
+.bold
+{
+    font-weight: bold;
+
+}
+
+body
+{
+    margin: 0;
+}
+
+.ProfileBox
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title
+{
+    margin-top:0;
+}
+
+.profiles
+{
+    padding:0 25% 0 25%;
+}
+
+.wrapper
+{
+	padding-bottom: 90px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 90px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: lightgray;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}
+
+
+

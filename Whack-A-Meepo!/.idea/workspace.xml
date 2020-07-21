@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd46c8cb-3a67-469e-ae8a-52edad44733b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/config/DynamoDBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileDynamoDataAccessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/datastore/FakeUserProfileDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/datastore/FakeUserProfileDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/filestore/FileStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/filestore/FileStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileDataAccessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileDataAccessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ecriqQRupUF2hjgN4ONvWyguT2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bkrmalick.awsimageupload.profile" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bkrmalick.awsimageupload.Main" />
+      <module name="aws-image-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bkrmalick.awsimageupload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd46c8cb-3a67-469e-ae8a-52edad44733b" name="Default Changelist" comment="" />
+      <created>1594631851666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594631851666</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2565" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1595180854637">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="737" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595126721042" />
+    <state x="2565" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595180854637" />
+    <state x="2388" y="4" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594643705337">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2388" y="4" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1594643705337" />
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1595290551365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595290551365" />
+    <state width="1637" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595267594559" />
+    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1595290551365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595290551365" />
+    <state width="1637" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595267594559" />
+    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1595290551365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595290551365" />
+    <state width="1637" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595267594559" />
+    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1595290551365">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595290551365" />
+    <state width="1637" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595267594559" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1595198505277">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595131366378" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595198505277" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1595198505277">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595131366378" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595198505277" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1595198505277">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595131366378" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595198505277" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1595198505277">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595131366378" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595198505277" />
+    <state x="922" y="249" key="SettingsEditor" timestamp="1594632057835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="249" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1594632057835" />
+    <state width="848" height="513" key="XDebugger.FullValuePopup" timestamp="1594770186904">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state width="848" height="513" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1594770186904" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595131364752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595131364752" />
+    <state x="2468" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1595284807991">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="626" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595248630038" />
+    <state x="2468" y="334" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595284807991" />
+    <state x="2200" y="242" width="1119" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595191969726">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2200" y="242" width="1119" height="565" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1595191969726" />
+    <state x="575" y="223" width="768" height="699" key="search.everywhere.popup" timestamp="1595091056528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="575" y="223" width="768" height="699" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1595091056528" />
+    <state x="2423" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@1920.0.1680.1010" timestamp="1594768821106" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bkrmalick/awsimageupload/profile/UserProfileController.java</url>
+          <line>65</line>
+          <properties class="com.bkrmalick.awsimageupload.profile.UserProfileController" method="downloadUserProfileImage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((StandardMultipartHttpServletRequest.StandardMultipartFile) file).filename" language="JAVA" custom="org.springframework.web.multipart.support.StandardMultipartHttpServletRequest" />
+        <watch expression="file.getOriginalFilename()" language="JAVA" />
+        <watch expression="file.getName()" language="JAVA" />
+        <watch expression="Optional.ofNullable(userProfile.getUserProfileImageLink())" language="JAVA" />
+        <watch expression="Optional.ofNullable(userProfile.getUserProfileImageLink()).isPresent()" language="JAVA" />
+        <watch expression="Optional.ofNullable(userProfile.getUserProfileImageLink()).value" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

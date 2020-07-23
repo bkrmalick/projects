@@ -11,15 +11,13 @@ function Game(props)
     const ROW_LENGTH=3;
     const INTERVAL=1000;
     
-    const [audioCounter, setAudioCounter]=useState(0);
-
-   
-    
     const [toggleStatus, setToggleStatus]= useState(true);
 
-    const audio1= new Audio(require(`./sounds/attack1.mp3`));
+   const audio1= new Audio(require(`./sounds/attack1.mp3`));
+   // const audio1= (<audio controls><source src={require(`./icons/meepo.png`)}  type="audio/mp3"/></audio>) ;
 
     audio1.volume=0.1;
+    audio1.crossOrigin="anonymous";
 
     let startingArr=new Array(SIZE).fill(false);
     startingArr[0]=true;
@@ -27,6 +25,12 @@ function Game(props)
     const [arr, setArr]= useState(startingArr);
 
     
+    function sound1()
+    {
+
+        return <audio controls="controls" preload="auto" id="attack"
+        crossOrigin="anonymous" src={require(`./icons/meepo.png`)}></audio>;
+    }
 
     function incScore()
     {
@@ -36,7 +40,7 @@ function Game(props)
     
     function playAttackSound()
     {
-        audio1.play();
+        audio1.play().then(resp=>console.log(resp));
     }
 
     function setClicked()
@@ -120,6 +124,7 @@ function Game(props)
             <Box id={7} currentState={arr[7]?img:null} setClicked={setClicked}/>
             <Box id={8} currentState={arr[8]?img:null} setClicked={setClicked}/>
         </div>
+        
     </div>
 </div>;
 

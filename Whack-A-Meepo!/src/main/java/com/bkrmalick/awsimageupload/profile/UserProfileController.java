@@ -11,7 +11,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("api/v1/user-profile")
-@CrossOrigin(origins = {"http://localhost:3000","http://localhost:3000/*"}) //need to change for production
+@CrossOrigin(origins = "*") //need to change for production
 public class UserProfileController
 {
 	private final UserProfileService userProfileService;

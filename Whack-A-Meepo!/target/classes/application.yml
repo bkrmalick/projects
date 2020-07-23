@@ -1,8 +1,8 @@
 
 amazon:
   access:
-    key: XXXXXXXXXXXXXXXXXXXXXXXXXXX
-    secret-key: XXXXXXXXXXXXXXXXXXXXXXXXXXX
+    key: XXXXXXXXXXXXXXXXXXXXXXXXX
+    secret-key: XXXXXXXXXXXXXXXXXXXXXXXXX
   region: eu-west-2
   end-point:
     url: dynamodb.eu-west-2.amazonaws.com

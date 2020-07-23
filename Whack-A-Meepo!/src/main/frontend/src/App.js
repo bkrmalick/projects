@@ -7,6 +7,11 @@ import Game from './components/Game/Game'
 import ScoreForm from './components/Game/ScoreForm.js'
 
 
+/*
+The port 5000 is set in application.properties in spring boot
+and also in packages.json as proxy (this setting only works in dev)
+*/
+const API_URL = "/";//"http://whack-a-meepo.eu-west-2.elasticbeanstalk.com/";
 
 //functional component 
 const UserProfiles = () => 
@@ -15,7 +20,7 @@ const UserProfiles = () =>
 
     const fetchUserProfiles=() =>
     {
-        axios.get("http://localhost:8080/api/v1/user-profile").then(res=>
+        axios.get(API_URL +"api/v1/user-profile").then(res=>
         {
           const compare=(p1,p2)=>{
             if(p1.score>p2.score)
@@ -40,7 +45,7 @@ const UserProfiles = () =>
 
       return (
         <div key = {index} className="ProfileBox">
-          {UserProfile.userProfileID ? <img src={`http://localhost:8080/api/v1/user-profile/${UserProfile.userProfileID}/image/download`} />:null}
+          {UserProfile.userProfileID ? <img src={API_URL +`api/v1/user-profile/${UserProfile.userProfileID}/image/download`} />:null}
           <br/><br/>
       <h3>{UserProfile.username}{index==0?"🔥":"👑"}</h3>
           <p>Score: {UserProfile.score}</p>
@@ -61,7 +66,7 @@ function Dropzone({userProfileID}) {
     formData.append("file",file);
 
     axios.post(
-      `http://localhost:8080/api/v1/user-profile/${userProfileID}/image/upload`, formData, {headers: {'Content-Type': 'multipart/form-data'}      }
+      API_URL +`api/v1/user-profile/${userProfileID}/image/upload`, formData, {headers: {'Content-Type': 'multipart/form-data'}      }
     ).then(resp=>{console.log(resp); window.location.reload(true);}).catch(err=>console.log(err));
 
   }, [])
@@ -91,7 +96,7 @@ function saveScore(score, name, file)
   console.log("FILE: "+file);
   let returnValue="";
 
-  return axios.get("http://localhost:8080/api/v1/user-profile").then(res=>
+  return axios.get(API_URL +"api/v1/user-profile").then(res=>
   {
     let profiles=[];
     profiles=res.data;
@@ -112,7 +117,7 @@ function saveScore(score, name, file)
     {
       
     axios.post(
-      `http://localhost:8080/api/v1/user-profile/score/upload`, formData, {headers: {'Content-Type': 'multipart/form-data'} }
+      API_URL +`api/v1/user-profile/score/upload`, formData, {headers: {'Content-Type': 'multipart/form-data'} }
           ).then(resp=>{window.location.reload(true);}).catch(err=>console.log(err));
 
           returnValue= "";

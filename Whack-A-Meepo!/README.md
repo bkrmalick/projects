@@ -1,7 +1,5 @@
 <h1>Whack-A-Meepo!</h1>
 
-<h4> Click <a href="http://whack-a-meepo.eu-west-2.elasticbeanstalk.com/?fbclid=IwAR2m8-b_g0EzSvFKiaApJdHJqimbWGg5MnzkHwNl1vi-VNa_YKcyQ2CTawI" target="_blank">here</a> to play. </h4>
-
 <p>A simple point and click game in which you have to whack the meepo as many times as you can before it changes position randomly. You can then save your score and add a profile picture to showcase your skills.</p>
 
 <p> Powered by <p>

@@ -1,3 +1,6 @@
 [submodule "cc_cw"]
 	path = Django Auctioning API
 	url = https://github.com/bkrmalick/cc_cw.git
+[submodule "grpc-calculator-service"]
+	path = grpc-calculator-service
+	url = https://github.com/bkrmalick/grpc-calculator-service.git
